@@ -1,0 +1,17 @@
+{
+	"id": "seasoning",
+	"name": "Seasoning",
+	"display_name": "Seasoning",
+	"author": ["basil_squared"],
+	"description": "Modding library for basil_squared's balatro mods that seeks to make the whole process simpler",
+	"prefix": "seas",
+	"main_file": "main.lua",
+	"priority": -2,
+	"badge_colour": "#FAFAFA",
+	"badge_text_colour": "#000000",
+	"version": "1.0.0",
+	"dependencies": [],
+    "provides": [
+        "Seasoning (1.0)"
+    ]
+}
