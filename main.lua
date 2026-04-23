@@ -32,3 +32,5 @@ function SEAS.FUNC.UTILS.LoadFolderRecursively(path)
     end
     scan(path)
 end
+
+SEAS.FUNC.UTILS.LoadFolderRecursively(SMODS.current_mod.path .. '/' .. 'content')
