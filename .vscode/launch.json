@@ -1,0 +1,14 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "Play Balatro",
+            "runtimeExecutable": "bash",
+            "runtimeArgs": ["./run_lovely_macos.sh"],
+            "cwd": "/Users/kasenengel/Library/Application Support/Steam/steamapps/common/Balatro",
+            "console": "integratedTerminal"
+        }
+    ]
+}
