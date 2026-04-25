@@ -17,6 +17,7 @@ function SEAS.FUNC.UTILS.LoadFolderRecursively(path)
     local modPath = SMODS.current_mod.path
     local function scan(currentPath)
         local files = nfs.getDirectoryItemsInfo(currentPath)
+        ---@cast files {name: string, type: love.FileType, size: number, modtime: number}[]
 
         for _, fileInfo in ipairs(files) do
             local fileName = fileInfo.name
